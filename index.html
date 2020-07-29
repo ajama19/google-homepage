@@ -1,78 +1,70 @@
-<html>
-<!-- Link to the stylesheet and link for favicon -->
-<head> 
+<!-- MY NEW GOOGLE HOMEPAGE -->
+
+<head>
+    <title>Google Clone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="google icon.png" type="image/png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<!-- Tab title -->
-<title>Google</title>
 
-<body>
-<!-- Top navbar for my google home page -->
-<header class="top_nav">
-    <div class="top_navbar_l">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#store">Store</a></li>
-        </ul>
-    </div>
+<html class="page">
+<body class="container">
 
-    <div class="top_navbar_r">
-        <ul>
-            <li><a href="sign-in"><button class="button button-signin">Sign in</button></a></li>
-            <li><a href="#dots">Apps</a></li>
-            <li><a href="#images">Images</a></li>
-            <li><a href="#gmail">Gmail</a></li>
-        </ul>
-    </div>
+<!-- The top navigation bar -->
+<header class="top">
+    <nav class="top_nav">
+        <div class="top_left">
+            <a href="#about">About</a>
+            <a href="#store">Store</a>
+        </div>
+        <div class="top_right">
+            <a href="#gmail">Gmail</a>
+            <a href="#images">Images</a>
+            <a href="#apps" id="apps"><img src="apps icon.png" alt="Apps" style="width:16px; height:16px;"></a>
+            <a href="#signin"><button id="signin">Sign in</button></a>
+        </div>
+    </nav>
 </header>
 
 
-
-<!-- Logo and searchbar of my google home page -->
-<main>   
-    <div class="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-    </div>
-    <div class="search_field">
-        <input type="search" id="searchbar" name="q">
-    </div>
-    <div class="search_buttons">
-        <button class="button button-search">Google Search</button>
-        <button class="button button-lucky">I'm Feeling Lucky</button>
+<!-- The logo and search field -->
+<main class="middle">
+    <div class="logo_search">
+        <div class="logo">
+            <img src="google logo.png" alt="Google Logo">
+        </div>
+        <div class="search">
+            <input type="search" id="searchbar" name="q">
+        </div>
+        <div class="buttons">
+            <button id="google_search">Google Search</button>
+            <button id="feeling_lucky">I'm Feeling Lucky</button>
+        </div>
     </div>
 </main>
 
 
-
-<!-- Bottom navbar for my google home page -->
-<div class="footer">
-    <div class="country_bar">
-        Canada    
+<!-- The links at the bottom of the page -->
+<footer class="bottom">
+    <div class="bottom_nav">
+        <div class="country_bar">
+            <a href="#country">Canada</a>
+        </div>
+        
+        <div class="bottom_links">
+            <div class="bottom_left">
+                <a href="#advert">Advertising</a>
+                <a href="#business">Business</a>
+                <a href="#hsw">How Search works</a>
+            </div>
+        <div class="bottom_right">
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#settings">Settings</a>
+            </div>
+        </div>
     </div>
-    
-    <div class="bottom" style="overflow: hidden;">
-    <div class="footer_l">
-        <ul>
-            <li><a href="#advert">Advertising</a></li>
-            <li><a href="#business">Business</a></li>
-            <li><a href="#hsw">How Search Works</a></li>
-        </ul>
-    </div>
-
-    <div class="footer_r">
-        <ul>
-            <li><a href=#settings>Settings</a></li>
-            <li><a href="#terms">Terms</a></li>
-            <li><a href="#privacy">Privacy</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
-
+</footer>
 
 </body>
 </html>
-
